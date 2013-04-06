@@ -81,7 +81,7 @@ end
 
 puts "\n\nProblem 6:"
 
-(responses[:neutral]).each do 
+(responses[:neutral]).each do |response|
 	print "responses[:neutral]"
 end
 
