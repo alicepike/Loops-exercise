@@ -81,6 +81,10 @@ end
 
 puts "\n\nProblem 6:"
 
+(responses[:neutral]).each do 
+	print "responses[:neutral]"
+end
+
 # 7. You can also loop through Hashes. Loop through our `responses`
 #    hash, printing each Array to the screen.
 
