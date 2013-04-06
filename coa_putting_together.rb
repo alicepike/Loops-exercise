@@ -70,6 +70,11 @@ end
 
 puts "\n\nProblem 5:"
 
+(0..4).each do |count|
+	print "#{responses[:negative][count]}"
+end
+
+
 # 6. Create a new loop using the `.each` method to iterate over each
 #    value in the `responses[:neutral]` Array to print each String to
 #    the screen.
