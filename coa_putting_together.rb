@@ -62,6 +62,10 @@ end
 
 puts "\n\nProblem 4:"
 
+3.times do |count|
+	print "#{responses[:negative][count]}"
+end
+
 # 5. Translate the loop to use a range from 0 to 4
 
 puts "\n\nProblem 5:"
