@@ -42,6 +42,12 @@ end
 
 puts "\n\nProblem 2:"
 
+count = 4
+while count > 0 do
+	print "#{responses[:negative][count]}"
+	count -= 1
+end 
+
 # 3. Translate the loop to use `until`.
 
 puts "\n\nProblem 3:"
