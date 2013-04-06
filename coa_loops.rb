@@ -51,15 +51,18 @@ end
 # line to distinguish exercise output
 
 def next_three_years_second_quarters(start_year)
-	# give a start year
-	start_year = 2012
-	# add a year twice
-	start_year = start_year + 1
-	# from within each year
+	months = ["April", "May", "June"]
+	years = (start_year..start_year + 2)
 	
-	# output the second quarter
+	years.each do |year|
+		puts "#{year}: #{months}.join(" ")}"
+	end
 end
 
 def output_months_for_years(years,months_range)
-
+	months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+	years.each do |year|
+		months_as_strings = months.slice(months_range)
+		puts "#{year}: #{months_as_strings.join(" ")}"
+	end
 end
