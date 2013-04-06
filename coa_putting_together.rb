@@ -90,8 +90,24 @@ end
 
 puts "\n\nProblem 7:"
 
+responses.each do |response_type, response_array|
+	puts "Response type: #{response_type}"
+	puts "Response array: #{response_array}"
+end
+
+
+
+
 # 8. Finally, iterate over both the Hash and then Array of that key so
 #    that you individually print out each value of the Array.
 
 puts "\n\nProblem 8:"
+
+responses.each do |response_type, response_array|
+	puts "\nResponse type: #{response_type}"
+	response_array.each do |response|
+		print "#{response}"
+	end
+end
+
 
