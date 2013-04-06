@@ -31,6 +31,12 @@ responses[:negative] = [ "Don't count on it", "My reply is no",
 
 puts "Problem 1:"
 
+counts = 4
+loop do
+	print "#{responses[:negative][count]}"
+	count = count - 1
+end
+
 # 2. Translate Problem 1 below to use `while` instead of `loop`.
 
 puts "\n\nProblem 2:"
